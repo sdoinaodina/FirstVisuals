@@ -1,0 +1,23 @@
+{
+    "schemaVersion": 1,
+    "id": "modid",
+    "version": "${version}",
+    "name": "Mod Name",
+    "description": "My awesome mod!",
+    "authors": ["Me"],
+    "contact": {
+        "homepage": "https://fabricmc.net/"
+    },
+    "license": "MIT",
+    "icon": "assets/modid/icon.png",
+    "environment": "*",
+    "entrypoints": [
+        "com.example.modid.Modid"
+    ],
+    "depends": {
+        "fabricloader": ">=0.15.11",
+        "minecraft": "1.21.x",
+        "java": ">=21",
+        "fabric-api": "*"
+    }
+}
