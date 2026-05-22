@@ -1,19 +1,19 @@
 {
     "schemaVersion": 1,
-    "id": "modid",
+    "id": "firstvisuals",
     "version": "${version}",
-    "name": "Mod Name",
-    "description": "My awesome mod!",
-    "authors": ["Me"],
-    "contact": {
-        "homepage": "https://fabricmc.net/"
-    },
+    "name": "FirstVisuals",
+    "description": "Custom visual mod with amazing effects",
+    "authors": ["sdoinaodina"],
+    "contact": {},
     "license": "MIT",
-    "icon": "assets/modid/icon.png",
+    "icon": "assets/firstvisuals/icon.png",
     "environment": "*",
-    "entrypoints": [
-        "com.example.modid.Modid"
-    ],
+    "entrypoints": {
+        "client": [
+            "com.firstvisuals.FirstVisualsMod"
+        ]
+    },
     "depends": {
         "fabricloader": ">=0.15.11",
         "minecraft": "1.21.x",
